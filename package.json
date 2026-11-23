@@ -1,0 +1,21 @@
+{
+  "name": "novatech-bpmn-gemini-diagnostic",
+  "version": "2.0.0",
+  "description": "Diagnóstico de processos BPMN em tempo real com Gemini Flash",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "allowScripts": {
+    "@google/genai@1.52.0": true,
+    "protobufjs@7.6.6": true
+  }
+}
